@@ -1,0 +1,40 @@
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated SQLite databases and database sidecar files
+data/*.db
+data/*.db-*
+data/*.sqlite
+data/*.sqlite3
+data/*.sqlite-*
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Environment variables and secrets (if added in the future)
+.env
+.env.*
+
+# VS Code workspace settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files and editor backups
+*.tmp
+*.temp
+*.bak
+*~
